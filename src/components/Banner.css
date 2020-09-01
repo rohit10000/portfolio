@@ -1,0 +1,89 @@
+.banner__container{
+    background-color: #1E5F7D;
+    color: white;
+}
+.banner{
+    margin: 10px 180px 0px 180px;
+    padding-top: 60px;
+    padding-bottom: 90px;
+}
+.banner__header{
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.banner__header__hi{
+    font-weight: lighter;
+    font-size: 60px;
+    font-family: fantasy;
+}
+.banner__header__intro {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.banner__header__intro > h3{
+    font-style: italic;
+    padding-right: 7px;
+    padding-left: 7px;
+}
+.banner__header__intro > h2{
+    padding-left: 5px;
+}
+
+.banner__content{
+    display: flex;
+    padding-top: 10px;
+}
+.banner__content__text{
+    padding-left: 10px;
+}
+.banner__content__text > h3{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.banner__content__text > p{
+    line-height: 25px;
+}
+.my_photo{
+    height: 250px;
+    width: auto;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-left: 10px;
+
+}
+.banner__content__details{
+    display: flex;
+    flex-direction: column;
+    border-left-color: black;
+    padding-left: 30px;
+    padding-right: 10px;
+    border-width: 1px;
+    box-shadow:
+            0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+            0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+            0 12.5px 10px rgba(0, 0, 0, 0.06),
+            0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+            0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+            0 100px 80px rgba(0, 0, 0, 0.12)
+;
+
+}
+.banner__content__details > h3{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.banner__content__details > p{
+    margin-bottom: 20px;
+    font-weight: lighter;
+    font-style: italic;
+}
+.banner__content__details > h4{
+    font-style: italic;
+}
+

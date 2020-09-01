@@ -1,0 +1,54 @@
+.contact__container{
+    background-color: #434242;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 200px 0px 200px;
+    padding-top: 60px;
+    padding-bottom: 90px;
+    text-align: center;
+}
+.contact__title{
+    color: white;
+    padding-bottom: 20px;
+    font-weight: lighter;
+
+}
+.contact__title > p{
+    font-size: 60px;
+}
+.contact__quote{
+    color: #687073;
+    font-size: 18px;
+    font-weight: lighter;
+    font-style: italic;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.contact__quote__text{
+
+}
+.contact__quote__author{
+
+}
+.contact__social{
+    display: flex;
+    padding: 60px 20px 40px 20px;
+}
+.contact__social__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 60px;
+    align-items: flex-start;
+}
+.contact__social__content__link{
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.link{
+    margin-left: 10px;
+    color: #ccc;
+}

@@ -1,0 +1,22 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: -webkit-sticky;
+    z-index: 100;
+    background-color: white;
+    width: 100%;
+
+}
+
+.header__icon{
+    object-fit: contain;
+    height: 100px;
+}
+
+.header__button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 80px;
+}

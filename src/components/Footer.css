@@ -1,0 +1,23 @@
+.footer{
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    background-color: #F0F0F0;
+}
+
+.footer__quote{
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: lighter;
+    padding-left: 100px;
+    line-height: 30px;
+    display: flex;
+}
+.footer__quote > p{
+
+}
+.footer__button{
+    display: flex;
+    padding-left: 300px;
+}
