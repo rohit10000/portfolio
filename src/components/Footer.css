@@ -4,13 +4,13 @@
     padding-bottom: 20px;
     padding-top: 40px;
     background-color: #F0F0F0;
+    flex-wrap: wrap;
 }
-
 .footer__quote{
     margin-bottom: 10px;
     font-size: 20px;
     font-weight: lighter;
-    padding-left: 100px;
+    padding-left: 10vw;
     line-height: 30px;
     display: flex;
 }
@@ -19,5 +19,28 @@
 }
 .footer__button{
     display: flex;
-    padding-left: 300px;
+    padding-left: 40vw;
+    padding-right: 3vw;
+    flex-wrap: wrap;
+}
+
+.button{
+    margin-right: 10px;
+    border-width: 0px;
+    outline-width: 0px;
+
+    font-family: Norasi;
+    font-size: 10px;
+    margin-left: 10px;
+    background-color: white;
+    font-style: italic;
+}
+.button:hover {
+    color: #A1396E;
+}
+
+@media screen and (max-width: 720px){
+    .footer__button{
+        padding-left: 10vw;
+    }
 }

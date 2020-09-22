@@ -11,15 +11,15 @@ function Banner(){
                     </div>
                     <br/>
                     <div className="banner__header__intro">
-                        <h3>I'm </h3> <h2> Rohit Singh</h2>,<h3>  a creative developer.</h3>
+                        <h3>I'm </h3> <h2> Rohit Singh,</h2><h3>  a creative developer.</h3>
                     </div>
                 </div>
 
-                <hr/>
+                <hr style={{borderColor: "white"}}/>
 
                 <div className="banner__content">
                     <img className="my_photo"
-                         src={require("../images/my_photo.JPG")}
+                         src={require("../images/my_photo2.jpg")}
                          alt=""
                     />
                     <div className="banner__content__text">

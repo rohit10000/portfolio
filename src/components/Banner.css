@@ -3,16 +3,19 @@
     color: white;
 }
 .banner{
-    margin: 10px 180px 0px 180px;
+    margin: 1vh 10vw 0vh 10vw;
     padding-top: 60px;
     padding-bottom: 90px;
+    /*display: flex;*/
+    /*flex-wrap: wrap;*/
 }
 .banner__header{
-    padding-bottom: 40px;
+    padding-bottom: 4vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .banner__header__hi{
     font-weight: lighter;
@@ -23,6 +26,7 @@
     display: flex;
     text-align: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .banner__header__intro > h3{
     font-style: italic;
@@ -35,10 +39,12 @@
 
 .banner__content{
     display: flex;
-    padding-top: 10px;
+    /*flex-wrap: wrap;*/
+    align-items: center;
 }
 .banner__content__text{
-    padding-left: 10px;
+
+    padding-left: 1vw;
 }
 .banner__content__text > h3{
     margin-top: 10px;
@@ -49,7 +55,7 @@
     line-height: 25px;
 }
 .my_photo{
-    height: 250px;
+    height: 45vh;
     width: auto;
     padding-right: 20px;
     padding-top: 30px;
@@ -87,3 +93,9 @@
     font-style: italic;
 }
 
+@media screen and (max-width: 1024px){
+    .banner__content{
+        display: flex;
+        flex-direction: column;
+    }
+}

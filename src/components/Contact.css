@@ -4,9 +4,9 @@
 .contact{
     display: flex;
     flex-direction: column;
-    margin: 10px 200px 0px 200px;
-    padding-top: 60px;
-    padding-bottom: 90px;
+    margin: 1vh 20vw 0vh 20vw;
+    padding-top: 7vh;
+    padding-bottom: 9vh;
     text-align: center;
 }
 .contact__title{
@@ -34,21 +34,36 @@
 }
 .contact__social{
     display: flex;
-    padding: 60px 20px 40px 20px;
+    padding: 6vh 2vw 2vh 2vw;
+    flex-wrap: wrap;
 }
 .contact__social__content{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding-left: 60px;
+    padding-left: 6vw;
     align-items: flex-start;
 }
 .contact__social__content__link{
     display: flex;
-    align-items: center;
-    padding-bottom: 30px;
+    align-items: baseline;
+    padding-bottom: 3vh;
 }
 .link{
-    margin-left: 10px;
+    margin-left: 1vw;
     color: #ccc;
+}
+@media screen and (max-width: 760px){
+    .contact{
+        margin-left: 2vw;
+        margin-right: 2vw;
+    }
+    .contact__social{
+        padding-left: 1vw;
+    }
+    .contact__social__content__link > p{
+        font-size: small;
+        font-weight: lighter;
+        padding-left: 1vw;
+    }
 }

@@ -1,6 +1,5 @@
 import React from "react";
 import "./Footer.css";
-import Button from "./Button";
 import {Link} from "react-router-dom";
 import FormatQuoteIcon from '@material-ui/icons/FormatQuote';
 
@@ -14,16 +13,24 @@ function Footer(){
             </div>
             <div className="footer__button">
                 <Link to={"/"}>
-                    <Button text = {"PROFILE"} />
+                    <button id={"profile"} className={"button"}>
+                        PROFILE
+                    </button>
                 </Link>
                 <Link to={"/resume"}>
-                    <Button text = {"RESUME"} />
+                    <button id={"resume"} className={"button"}>
+                        RESUME
+                    </button>
                 </Link>
                 <Link to={"/projects"}>
-                    <Button text = {"PROJECTS"} />
+                    <button id={"project"} className={"button"}>
+                        PROJECTS
+                    </button>
                 </Link>
                 <Link to={"/contact"}>
-                    <Button text = {"CONTACT"} />
+                    <button id={"contact"} className={"button"}>
+                        CONTACT
+                    </button>
                 </Link>
             </div>
         </div>

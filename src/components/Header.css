@@ -1,22 +1,39 @@
-.header{
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: -webkit-sticky;
     z-index: 100;
-    background-color: white;
+    background-color: #fff;
     width: 100%;
-
+    flex-wrap: wrap;
 }
 
-.header__icon{
+.header__icon {
     object-fit: contain;
-    height: 100px;
+    height: 100px
 }
 
-.header__button{
+.header__button {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-right: 80px;
+    flex-wrap: wrap;
+}
+
+
+.button_ {
+    margin-right: 10px;
+    border: none !important;
+    outline:none !important;
+    font-family: Norasi, serif;
+    font-size: 15px;
+    margin-left: 10px;
+    background-color: #fff;
+    font-style: italic
+}
+
+.button_:hover {
+    color: #a1396e
 }

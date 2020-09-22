@@ -4,7 +4,7 @@ import "./Button.css";
 function Button({text}){
     return(
         <div>
-            <button className="button">
+            <button className="button" >
                 {text}
             </button>
         </div>
