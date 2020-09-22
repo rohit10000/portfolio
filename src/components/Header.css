@@ -22,7 +22,6 @@
     flex-wrap: wrap;
 }
 
-
 .button_ {
     margin-right: 10px;
     border: none !important;
@@ -35,5 +34,5 @@
 }
 
 .button_:hover {
-    color: #a1396e
+    color: #a1396e !important;
 }
